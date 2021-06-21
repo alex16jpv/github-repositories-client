@@ -1,0 +1,25 @@
+section.repositories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.listContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 45%;
+    height: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #26262617;
+    box-shadow: 1px 1px 10px -3px #000000;
+}
+
+.card a{
+    color: red;
+}
