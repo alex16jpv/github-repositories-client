@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Set up Local
+- `Rename your .env.example to .env`
+- `Fill your .env file`
+- `$ npm i`
+
 ## Available Scripts
 
 In the project directory, you can run:
