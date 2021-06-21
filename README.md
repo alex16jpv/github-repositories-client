@@ -7,6 +7,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - `Fill your .env file`
 - `$ npm i`
 
+## Auth from backend or localStore
+
+you can choose where users are stored for authentication
+- `backend (local db)`
+- `frontend (localstorage)`
+
+you just have to modify the environment variable "REACT_APP_LOGIN_FROM"
+
 ## Available Scripts
 
 In the project directory, you can run:

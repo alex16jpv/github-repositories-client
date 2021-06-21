@@ -91,7 +91,7 @@ const signupFromLocalStorage = (info) => {
 };
 
 const createUser = async (signupInfo) => {
-  switch (process.env.REACT_APP_LOGIN) {
+  switch (process.env.REACT_APP_LOGIN_FROM) {
     case "LOCALSTORAGE":
       return signupFromLocalStorage(signupInfo);
     case "BACKEND":
@@ -102,7 +102,7 @@ const createUser = async (signupInfo) => {
 };
 
 const userLogin = async (loginInfo) => {
-  switch (process.env.REACT_APP_LOGIN) {
+  switch (process.env.REACT_APP_LOGIN_FROM) {
     case "LOCALSTORAGE":
       return loginFromLocalStorage(loginInfo);
     case "BACKEND":
